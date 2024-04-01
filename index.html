@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    @keyframes scrollBg {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-330px);
+  }
+}
+
+.scroll-bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  padding-bottom: 330px;
+  background-color: #E8BA9B;
+  background-image: url('https://andreivictor.ro/codepen/scroll-bg-animation-pinterest/bg_pasta_grid-3f880df3.jpg');
+  background-size: cover;
+  /* animation: scrollBg 35s linear forwards; */
+}
+</style>
+
+<body>
+    <div class="scroll-bg" style="height:100vh; display: flex; align-items: center;">
+        <div style="text-align:center; width: 100%;">
+            <h1 style="color:white;">Musselicious Magic is currently down.</h1>
+            <h4 style="color:white; margin-top:1rem;">Please contact the developer</h4>
+        </div>
+        
+    </div>
+</body>
+
+</html>
